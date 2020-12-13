@@ -1,0 +1,14 @@
+<nav   class="navbar navbar-expand-lg navbar-light bg-light" >
+    <a routerLink="/Acceil" routerLinkActive="active"> ACCEUIL</a> <hr><hr>
+    <a routerLink="/Profile" routerLinkActive="active">PROFILE</a><hr><hr>
+    <a routerLink="/LogIn" routerLinkActive="active">LOGIN</a><hr><hr>
+    <a routerLink="/MonEspace" routerLinkActive="active">MonEspace</a><hr><hr>
+    <form [ngClass]="'d-flex'">
+        <input [ngClass]="'form-control me-2'" type="search" placeholder="Search" aria-label="Search">
+        <button [ngClass]="'btn btn-outline-success'" type="submit"  >Search</button>
+      </form>
+    
+
+</nav>
+
+<router-outlet></router-outlet>
